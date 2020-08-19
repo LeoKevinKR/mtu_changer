@@ -1,5 +1,8 @@
 # MTU_Changer
- 
+
+## mtu-toggle.bat 를 관리자권한으로 실행
+
+## 명령어들
 1. netsh interface ipv4 show interface   -- 랜카드 상태 색인 표를 확인
 
 2. netsh interface ip set global minmtu=352   -- mtu 최저값 변경 설정
